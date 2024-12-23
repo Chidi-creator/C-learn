@@ -1,0 +1,17 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+@layer components {
+  .socialIcon {
+    @apply w-11 border-[1px] border-green-500 border-solid h-11 rounded-full px-2 py-1 text-purple-500 hover:text-green-500 cursor-pointer transition duration-200 hover:animate-pulse;
+  }
+}
+
